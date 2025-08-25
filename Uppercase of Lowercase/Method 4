@@ -1,0 +1,23 @@
+#include <stdio.h>
+int main()
+{
+    char ch;
+    printf ("Enter an alphabet: ");
+    scanf ("%c",&ch);
+    switch (ch>='A' && ch<='Z')
+    {
+    case 1:
+        printf ("Alphabet '%c' is in Uppercase\n",ch);
+        break;
+    default:
+        switch (ch>='a' && ch<='z')
+        {
+        case 1:
+            printf ("Alphabet '%c' is in Lowercase\n",ch);
+            break;
+        default:
+            printf ("%c is not an alphabet\n",ch);
+        }
+    }
+    return 0;
+}
