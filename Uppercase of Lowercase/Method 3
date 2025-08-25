@@ -1,0 +1,9 @@
+#include <stdio.h>
+int main()
+{
+    char ch;
+    printf ("Enter an alphabet: ");
+    scanf ("%c",&ch);
+    (ch>='A' && ch<='Z')?(printf ("Alphabet '%c' is in Uppercase\n",ch)):((ch>='a' && ch<='z')?(printf ("Alphabet '%c' is in Lowercase\n",ch)):(printf ("'%c' is not an alphabet\n",ch)));
+    return 0;
+}
