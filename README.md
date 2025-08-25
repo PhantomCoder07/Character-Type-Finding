@@ -1,2 +1,2 @@
-# Character-Finding
+# Character-Type-Finding
 Conditions 
