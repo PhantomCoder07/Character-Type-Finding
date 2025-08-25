@@ -1,0 +1,9 @@
+#include <stdio.h>
+int main()
+{
+    char ch;
+    printf ("Enter any character: ");
+    scanf ("%c",&ch);
+    ((ch>='a' && ch<='z') || (ch>='A' && ch<='Z'))?(printf ("Character '%c' is an Alphabet\n",ch)):((ch>='0' && ch<='9')?(printf ("Character '%c' is a Digit\n",ch)):(printf ("Character '%c' is a Special Character\n",ch)));
+    return 0;
+}
